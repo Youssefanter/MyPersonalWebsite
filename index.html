@@ -3,43 +3,137 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-  <link rel="icon" href="./images/user-solid.svg" type="image/icon type" style="color: #fb8122;">
-  <title>Youssef Antar</title>
+  <title>YoussefAntar</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="./images/user-solid.svg" type="image/icon type">
+
+  <!-- Box icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 
 <body>
-  <!-- Start Header -->
-  <header>
-    <a href="#main" class="logo">Antar</a>
-    <nav class="navigation">
+  <!-- Header Design -->
+
+  <header class="header">
+    <a href="#" class="logo">Antar.</a>
+
+    <div class='bx bx-menu' id="menu-icon"></div>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
       <a href="#projects">Projects</a>
-      <a href="#contact">Contact-Me</a>
+      <a href="#contact">Contact</a>
+      <span class="active-nav"></span>
     </nav>
   </header>
-  <!-- End Header -->
-  <!-- Start Main -->
-  <section class="main" id="main">
-    <div>
-      <h2>Hello, I'm Youssef Antar <br> <span>&#60;Web Developer/&#62;</span></h2>
-      <h3>Welcome to my world :)</h3>
-      <a href="#projects" class="main-btn">View My Work</a>
-      <div class="social-icons">
-        <a href="https://github.com/Youssefanter"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/youssef-aly-0bba08188/"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.facebook.com/youssof.aly"><i class="fab fa-facebook"></i></a>
-        <a href="https://twitter.com/yooiialy"><i class="fab fa-twitter"></i></a>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hi, I'm <span>Youssef Antar</span></h1>
+      <div class="text-animate">
+        <h3>Frontend Developer</h3>
+      </div>
+      <p>Welcome to my World :)</p>
+      <div class="btn-box">
+        <a href="https://drive.google.com/file/d/10L1ukaogBBDBgEI-nPYb4ogZ8ADcINJc/view?usp=drive_link" target="_blank"
+          class="btn" download="Youssef Aly Antar's Resume Software Engineer">Hire Me</a>
+        <a href="https://api.whatsapp.com/send?phone=01121053405" class="btn">Let's Talk</a>
+      </div>
+    </div>
+    <div class="home-sci">
+      <a href="https://www.facebook.com/youssof.aly" target="_blank"><i class='bx bxl-facebook'></i></a>
+      <a href="https://github.com/Youssefanter" target="_blank"><i class='bx bxl-github'></i></a>
+      <a href="https://www.linkedin.com/in/youssefantar/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="heading">About <span>Me</span></h2>
+
+    <div class="about-img">
+      <img src="images/aboutlast2.jpg" alt="about">
+      <span class="circle-spin">
+      </span>
+    </div>
+
+    <div class="about-content">
+      <h3>Frontend Developer!</h3>
+      <p>a Full stack developer with a bachelor's degree in CS from Ain-shams university. I have a passion for computer
+        programming and information technology. This passion has given me the ability to develop programs for a
+        multitude
+        of things, including programming languages, and databases.</p>
+      <div class="btn-box btns">
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Education Section  -->
+  <section class="education" id="education">
+    <h2 class="heading">My <span>Journey</span></h2>
+    <div class="education-row">
+      <div class="education-column">
+        <h3 class="title">Education</h3>
+        <div class="education-box">
+          <div class="education-content">
+            <div class="content">
+              <div class="year"><i class='bx bxs-calendar'></i>2018 - 2022</div>
+              <h3>Bachelor Degree - Ain Shams University</h3>
+              <p>I am proud to have graduated from the esteemed Faculty of Computer Science at Ain Shams University with
+                grade Good.
+                Throughout my time at this prestigious institution, I gained a comprehensive understanding of various
+                computer science concepts and honed my skills in programming, software development, and data analysis.
+                The rigorous curriculum and hands-on projects provided me with a solid foundation to excel in the
+                ever-evolving field of technology. My education at Ain Shams University has equipped me with the
+                knowledge and expertise necessary to tackle complex challenges in the digital world, and I am excited to
+                apply these skills to create innovative solutions for my clients. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="education-column">
+        <h3 class="title">Experience</h3>
+        <div class="education-box">
+          <div class="education-content">
+            <div class="content">
+              <div class="year"><i class='bx bxs-calendar'></i>July 2022 - March 2023</div>
+              <h3>Full Stack Developer at NIT organization</h3>
+              <p>Developed, alongside a team of 2 software engineers, an attendance system product to
+                sell to major companies named OOOPS </p>
+            </div>
+          </div>
+          <div class="education-content">
+            <div class="content">
+              <div class="year"><i class='bx bxs-calendar'></i>August 2021 - October 2021</div>
+              <h3>Web-Developer Intern.</h3>
+              <p>Built, alongside a team of 3 software engineers, the company factory data warehouse
+                solution. </p>
+            </div>
+          </div>
+          <div class="education-content">
+            <div class="content">
+              <div class="year"><i class='bx bxs-calendar'></i>June 2020 - September 2020</div>
+              <h3>Web-Developer</h3>
+              <p>Developed a website for the company to manage their real estate units. <br>
+                Tools used to develop the website (React.js, node.js, MongoDB). </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <!-- End Main -->
-  <!-- Start projects -->
+
+  <!-- Projects section -->
   <section class="projects" id="projects">
-    <h2 class="title">Projects</h2>
-    <div class="content">
+    <h2 class="heading">My <span> Projects</span></h2>
+    <div class="projects-content">
       <div class="project-card">
         <div class="project-image">
           <img src="images/Coffee-website.png" alt="">
@@ -114,51 +208,51 @@
       </div>
     </div>
   </section>
-  <!-- End projects -->
-  <!-- Start Contact -->
-  <section class="cards contact" id="contact">
-    <h2 class="title">Let's Work Together</h2>
-    <div class="content">
-      <div class="card">
-        <div class="icon">
-          <i class="fas fa-phone"></i>
+  <!-- contact section  -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me !</span></h2>
+    <form action="https://formsubmit.co/youssef.antar99@gmail.com" method="POST">
+      <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+      <div class="input-box">
+        <div class="input-field">
+          <input type="text" placeholder="Full Name" name="name " required>
+          <span class="focus"></span>
         </div>
-        <div class="info">
-          <h3>Phone</h3>
-          <p>+201121053405 - +201004023807</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="icon">
-          <i class="fas fa-envelope"></i>
-        </div>
-        <div class="info">
-          <h3>Email</h3>
-          <p><a href="mailto:youssef.antar99@gmail.com">youssef.antar99@gmail.com</a></p>
+        <div class="input-field">
+          <input type="text" placeholder="Email Address" name="email" required>
+          <span class="focus"></span>
         </div>
       </div>
-      <div class="card">
-        <div class="icon">
-          <i class="fa-solid fa-file"></i>
+      <div class="input-box">
+        <div class="input-field">
+          <input type="text" placeholder="Mobile Number" name="mobile number" required>
+          <span class="focus"></span>
         </div>
-        <div class="info">
-          <h3>Resumé</h3>
-          <p><a href="https://drive.google.com/file/d/1a3Axckd31mmspxCdyHis63iJydAceSx6/view?usp=share_link">Click to
-              preview</a></p>
+        <div class="input-field">
+          <input type="text" placeholder="Email subject" name="_subject" required>
+          <span class="focus"></span>
         </div>
       </div>
-    </div>
+      <div class="textarea-field">
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <span class="focus"></span>
+      </div>
+      <div class="btn-box btns">
+        <button type="submit" value="Submit" class="btn">Submit</button>
+      </div>
+    </form>
   </section>
-  <!-- End Contact -->
+
+  <!-- Footer design -->
   <footer class="footer">
-    <p class="footer-title">Copyrights @<span>Youssef Antar</span></p>
-    <div class="social-icons">
-      <a href="https://github.com/Youssefanter"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/youssef-aly-0bba08188/"><i class="fab fa-linkedin"></i></a>
-      <a href="https://www.facebook.com/youssof.aly"><i class="fab fa-facebook"></i></a>
-      <a href="https://twitter.com/yooiialy"><i class="fab fa-twitter"></i></a>
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 By Antar. | All Rights Reserved</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
     </div>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
