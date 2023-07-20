@@ -577,7 +577,12 @@ span {
 .contact form .btn-box.btns .btn {
   cursor: pointer;
 }
-
+.contact form .btn-box.btns .btn a {
+  color: var(--bg-color);
+}
+.contact form .btn-box.btns .btn:hover a {
+  color: var(--main-color);
+}
 /* Footer Design */
 .footer {
   display: flex;
