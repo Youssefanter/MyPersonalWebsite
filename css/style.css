@@ -652,6 +652,9 @@ span {
   }
   .home {
     padding: 0 4%;
+    background: url("../images/Portfolio-center.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   .footer {
     padding: 2rem 4%;
@@ -737,10 +740,15 @@ span {
   html {
     font-size: 50%;
   }
+  .home-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
   .home {
-    background: url("../images/Portfolio-small.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
+    justify-content: center;
+    background: var(--bg-color);
   }
   .home-content h1 {
     display: flex;
@@ -758,6 +766,9 @@ span {
   }
 }
 @media (max-width: 462px) {
+  .home {
+    background-color: var(--bg-color);
+  }
   .home-content h1 {
     font-size: 5.2rem;
   }
@@ -780,16 +791,6 @@ span {
 }
 
 @media (max-width: 371px) {
-  .home {
-    justify-content: center;
-    background: var(--bg-color);
-  }
-  .home-content {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-  }
   .home-content {
     font-size: 5rem;
   }
